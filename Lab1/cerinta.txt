@@ -1,0 +1,28 @@
+REZERVARE BILETE PENTRU CINEMA
+
+O companie de filme pune clientilor la dispozitie un soft pentru a cumpara bilete online. Orice utilizator
+poate cumpara mai multe bilete deodata, la acelasi film. Biletele selectate de un utilizator
+nu sunt disponibile pentru alt utilizator (chiar si in timp ce el alege biletele).
+
+Logarea si inregistrarea se face dupa email si parola, si date personale pentru a putea fi
+confirmata rezervarea. Dupa logare, utilizatorul poate cauta filmele dupa cinema.
+Dupa ce a ales filmul, poate alege cinema-ul, sala, data si ora, si numarul de bilete dorite.
+Dupa ce a ales toate datele, poate plati online, sau poate alege sa plateasca la cinema.
+Dupa ce a platit, poate vedea rezervarea facuta, si poate sterge rezervarea in cazul in care nu
+revendica rezervarea la timp.
+Daca doreste, poate sa stearga o rezervare (daca biletul nu este cumparat).
+
+Angajat:
+Pot adauga un nou film, un nou film (la un anumit cinema, la o anumita data, cu un numar maxim de bilete).
+Pot sterge un film, un film (la un anumit cinema, la o anumita data, cu un numar maxim de bilete).
+
+
+Functionalitati:
+
+INREGISTRARE
+LOGARE
+CAUTARE DUPA NUMELE FILMULUI si CINEMA
+AFISARE REZERVARE
+STERGERE REZERVARE (In cazul in care cineva nu isi revendica rezervarea la timp)
+PLATA ONLINE
+PLATA LA CINEMA
