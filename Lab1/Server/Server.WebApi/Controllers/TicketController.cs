@@ -47,7 +47,7 @@ namespace Server.WebApi.Controllers
         /// </summary>
         /// <response code="200">Get a ticket by id.</response>
         [HttpPost]
-        [Route("get/{ticketId}")]
+        [Route("get/ticket/{ticketId}")]
         [Consumes(MediaTypeNames.Application.Json)]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<Ticket> GetTicketById(string ticketId)

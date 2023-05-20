@@ -36,7 +36,7 @@ namespace Server.WebApi.Controllers
         /// </summary>
         /// <response code="200">Get all projection cinema request.</response>
         [HttpPost]
-        [Route("get")]
+        [Route("get/cinema")]
         [Consumes(MediaTypeNames.Application.Json)]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<List<Projection>> GetAllProjectionByCinema(GetAllProjectionOfCinemaRequest request)
@@ -49,7 +49,7 @@ namespace Server.WebApi.Controllers
         /// </summary>
         /// <response code="200">Get all projection movie request.</response>
         [HttpPost]
-        [Route("get")]
+        [Route("get/movie")]
         [Consumes(MediaTypeNames.Application.Json)]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<List<Projection>> GetAllProjectionByMovie(GetAllProjectionOfMovieRequest request)
