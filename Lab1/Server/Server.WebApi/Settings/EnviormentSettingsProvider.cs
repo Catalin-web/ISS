@@ -8,7 +8,7 @@ namespace Server.WebApi.Settings
         {
             get
             {
-                return Environment.GetEnvironmentVariable("AUTH_BINDING_ADRESS") ?? "http://localhost";
+                return Environment.GetEnvironmentVariable("BINDING_ADRESS") ?? "http://localhost";
             }
         }
 
@@ -16,7 +16,7 @@ namespace Server.WebApi.Settings
         {
             get
             {
-                return int.Parse(Environment.GetEnvironmentVariable("AUTH_PORT") ?? "12500", CultureInfo.InvariantCulture);
+                return int.Parse(Environment.GetEnvironmentVariable("PORT") ?? "12500", CultureInfo.InvariantCulture);
             }
         }
 
@@ -24,7 +24,7 @@ namespace Server.WebApi.Settings
         {
             get
             {
-                return Environment.GetEnvironmentVariable("AUTH_CONNECTION_STRING") ?? "mongodb://localhost:27017";
+                return Environment.GetEnvironmentVariable("CONNECTION_STRING") ?? "mongodb://localhost:27017";
             }
         }
     }

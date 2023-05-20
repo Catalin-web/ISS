@@ -1,0 +1,39 @@
+version: "3"
+services:
+  backend:
+    build:
+      dockerfile: Server/Dockerfile
+    ports:
+      - "12500:12500"
+    environment:
+      BINDING_ADRESS: http://*
+      BINDING_PORT: 12500
+      CONNECTION_STRING: mongodb://mongodb:27017/auth
+      DOTNET_SYSTEM_GLOBALIZATION_INVARIANT: 1
+    deploy:
+      resources:
+        limits:
+          cpus: "4.0"
+          memory: 200M
+
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    restart: always
+    environment:
+      #MONGO_INITDB_ROOT_USERNAME: username
+      #MONGO_INITDB_ROOT_PASSWORD: password
+      MONGO_INITDB_DATABASE: auth
+    ports:
+      - "27017:27017"
+    volumes:
+      - data-volume:/data/db
+    deploy:
+      resources:
+        limits:
+          cpus: "4.0"
+          memory: 200M
+
+volumes:
+  data-volume:
+    name: db-data
