@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y5ItCXd7U1WgqIhxnMLdAcarF0L+zUVMwLtwrq2GxzQ3PCbR3/db0X316BoE3pembHQz72CyyrEm6b3le6vJDA==",
+  "dgSpecHash": "xrOlh4B7rqRemRRD9MH/+gF0+gJv9Ajgnm8UoNohLHu0ahyQCi6G7xq7aQTk8ubJNJe8pb09sI2KMQ5qAiVmlg==",
   "success": true,
-  "projectFilePath": "E:\\Facultate\\Sem_4\\ISS\\Laboratoare\\Lab1\\Server\\Server.DataStore\\Server.DataStore.csproj",
+  "projectFilePath": "E:\\Facultate\\Sem_4\\ISS\\ISS\\Lab1\\Server\\Server.DataStore\\Server.DataStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\catal\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\catal\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

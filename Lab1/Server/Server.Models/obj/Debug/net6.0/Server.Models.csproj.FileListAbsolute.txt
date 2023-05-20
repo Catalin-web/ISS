@@ -10,3 +10,15 @@ E:\Facultate\Sem_4\ISS\Laboratoare\Lab1\Server\Server.Models\obj\Debug\net6.0\Se
 E:\Facultate\Sem_4\ISS\Laboratoare\Lab1\Server\Server.Models\obj\Debug\net6.0\refint\Server.Models.dll
 E:\Facultate\Sem_4\ISS\Laboratoare\Lab1\Server\Server.Models\obj\Debug\net6.0\Server.Models.pdb
 E:\Facultate\Sem_4\ISS\Laboratoare\Lab1\Server\Server.Models\obj\Debug\net6.0\ref\Server.Models.dll
+E:\Facultate\Sem_4\ISS\ISS\Lab1\Server\Server.Models\bin\Debug\net6.0\Server.Models.deps.json
+E:\Facultate\Sem_4\ISS\ISS\Lab1\Server\Server.Models\bin\Debug\net6.0\Server.Models.dll
+E:\Facultate\Sem_4\ISS\ISS\Lab1\Server\Server.Models\bin\Debug\net6.0\Server.Models.pdb
+E:\Facultate\Sem_4\ISS\ISS\Lab1\Server\Server.Models\obj\Debug\net6.0\Server.Models.csproj.AssemblyReference.cache
+E:\Facultate\Sem_4\ISS\ISS\Lab1\Server\Server.Models\obj\Debug\net6.0\Server.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\Facultate\Sem_4\ISS\ISS\Lab1\Server\Server.Models\obj\Debug\net6.0\Server.Models.AssemblyInfoInputs.cache
+E:\Facultate\Sem_4\ISS\ISS\Lab1\Server\Server.Models\obj\Debug\net6.0\Server.Models.AssemblyInfo.cs
+E:\Facultate\Sem_4\ISS\ISS\Lab1\Server\Server.Models\obj\Debug\net6.0\Server.Models.csproj.CoreCompileInputs.cache
+E:\Facultate\Sem_4\ISS\ISS\Lab1\Server\Server.Models\obj\Debug\net6.0\Server.Models.dll
+E:\Facultate\Sem_4\ISS\ISS\Lab1\Server\Server.Models\obj\Debug\net6.0\refint\Server.Models.dll
+E:\Facultate\Sem_4\ISS\ISS\Lab1\Server\Server.Models\obj\Debug\net6.0\Server.Models.pdb
+E:\Facultate\Sem_4\ISS\ISS\Lab1\Server\Server.Models\obj\Debug\net6.0\ref\Server.Models.dll

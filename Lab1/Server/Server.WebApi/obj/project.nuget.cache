@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hIRQ7alhK0byPuowdJ2ZnwQmlqaFexR+QcCXnBBebJRoRrG0ivW8UuobZt/NwlXid9Yj88gmyqkoVSvBcl60AQ==",
+  "dgSpecHash": "zFg7sXL/5s5mOKk22G4Wmzc7MBHEJWf8/pEBt04bMc+zMKQ2AKRf4HxAUZvNO7yZ6F4LYoBdS7/CQQjGul7roA==",
   "success": true,
-  "projectFilePath": "E:\\Facultate\\Sem_4\\ISS\\Laboratoare\\Lab1\\Server\\Server.WebApi\\Server.WebApi.csproj",
+  "projectFilePath": "E:\\Facultate\\Sem_4\\ISS\\ISS\\Lab1\\Server\\Server.WebApi\\Server.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\catal\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\catal\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

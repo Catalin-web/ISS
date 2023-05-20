@@ -772,11 +772,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Facultate\\Sem_4\\ISS\\Laboratoare\\Lab1\\Server\\Server.DataStore\\Server.DataStore.csproj",
+      "projectUniqueName": "E:\\Facultate\\Sem_4\\ISS\\ISS\\Lab1\\Server\\Server.DataStore\\Server.DataStore.csproj",
       "projectName": "Server.DataStore",
-      "projectPath": "E:\\Facultate\\Sem_4\\ISS\\Laboratoare\\Lab1\\Server\\Server.DataStore\\Server.DataStore.csproj",
+      "projectPath": "E:\\Facultate\\Sem_4\\ISS\\ISS\\Lab1\\Server\\Server.DataStore\\Server.DataStore.csproj",
       "packagesPath": "C:\\Users\\catal\\.nuget\\packages\\",
-      "outputPath": "E:\\Facultate\\Sem_4\\ISS\\Laboratoare\\Lab1\\Server\\Server.DataStore\\obj\\",
+      "outputPath": "E:\\Facultate\\Sem_4\\ISS\\ISS\\Lab1\\Server\\Server.DataStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\catal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -793,8 +793,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Facultate\\Sem_4\\ISS\\Laboratoare\\Lab1\\Server\\Server.Models\\Server.Models.csproj": {
-              "projectPath": "E:\\Facultate\\Sem_4\\ISS\\Laboratoare\\Lab1\\Server\\Server.Models\\Server.Models.csproj"
+            "E:\\Facultate\\Sem_4\\ISS\\ISS\\Lab1\\Server\\Server.Models\\Server.Models.csproj": {
+              "projectPath": "E:\\Facultate\\Sem_4\\ISS\\ISS\\Lab1\\Server\\Server.Models\\Server.Models.csproj"
             }
           }
         }
