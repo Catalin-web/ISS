@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zFg7sXL/5s5mOKk22G4Wmzc7MBHEJWf8/pEBt04bMc+zMKQ2AKRf4HxAUZvNO7yZ6F4LYoBdS7/CQQjGul7roA==",
+  "dgSpecHash": "qhgBCJwE1WVOZTlEltDuIpnIMLclw6/qD7Y27irHw5ytV3U8T9dEshD7PrWf47nPAjMf4zFVQ0FxMok/t5uV5g==",
   "success": true,
   "projectFilePath": "E:\\Facultate\\Sem_4\\ISS\\ISS\\Lab1\\Server\\Server.WebApi\\Server.WebApi.csproj",
   "expectedPackageFiles": [
@@ -23,9 +23,11 @@
     "C:\\Users\\catal\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
     "C:\\Users\\catal\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "C:\\Users\\catal\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
-    "C:\\Users\\catal\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\catal\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\catal\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\catal\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\catal\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\catal\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512",
     "C:\\Users\\catal\\.nuget\\packages\\zstdsharp.port\\0.6.2\\zstdsharp.port.0.6.2.nupkg.sha512"
   ],
   "logs": []

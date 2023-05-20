@@ -34,7 +34,7 @@ namespace Server.WebApi
                     throw new ArgumentNullException("Only admin users are allowed to perform create projection action!");
                 }
                 var cinema = await _cinemas.GetAsync(cinema => cinema.Name == request.CinemaName);
-                var movie = await _cinemas.GetAsync(movie => movie.Name == request.MovieName);
+                var movie = await _movies.GetAsync(movie => movie.Name == request.MovieName);
                 var projection = new Projection()
                 {
                     CinemaId = cinema.Id,
@@ -69,7 +69,7 @@ namespace Server.WebApi
             {
                 var cinema = await _cinemas.GetAsync(cinema => cinema.Name == request.CinemaName);
                 var movie = await _movies.GetAsync(movie => movie.Name == request.MovieName);
-                return await _projections.GetAllAsync(projection => projection.CinemaId == cinema.Id);
+                return await _projections.GetAllAsync(projection => projection.CinemaId == cinema.Id && projection.MovieId == movie.Id);
             }
             catch (Exception ex)
             {

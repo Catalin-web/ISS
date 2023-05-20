@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "5FpzEYn8+CWcUGinrPr/GAsQL+uRE/6Pyu0hWZWSVhCYCIVOWmDEguJlTpWT7/6kQUl4kB78/rQEfZL/NzPICA==",
+  "dgSpecHash": "m4ZXlOSi2ePM/Z14LqywryxLdkR2B1OH6PLX5MuK3EURJp/Mxu+yOigvBmZBwF0wKv8uzSNhh9AQeA6mwRDiKQ==",
   "success": true,
   "projectFilePath": "E:\\Facultate\\Sem_4\\ISS\\ISS\\Lab1\\Server\\Server.Models\\Server.Models.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\catal\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
+    "C:\\Users\\catal\\.nuget\\packages\\mongodb.bson\\2.19.1\\mongodb.bson.2.19.1.nupkg.sha512",
+    "C:\\Users\\catal\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\catal\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\catal\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -28,21 +28,17 @@ namespace Server.WebApi
         {
             try
             {
-                var movie = await _movies.GetAsync(movie => movie.Name == request.MovieName);
-                var cinema = await _cinemas.GetAsync(cinema => cinema.Name == request.CinemaName);
-                // Find the projection:
-                var projection = await _projections.GetAsync(projection => projection.MovieId == movie.Id && projection.CinemaId == cinema.Id && projection.Date == request.Date);
                 foreach (var seat in request.Seats)
                 {
                     var ticket = new Ticket()
                     {
                         UserId = request.UserId,
-                        ProjectionId = projection.Id,
+                        ProjectionId = request.ProjectionId,
                         Type = TicketType.RESERVED,
                         SeatNumber = seat
                     };
                     await _tickets.InsertAsync(ticket);
-                    ticket = await _tickets.GetAsync(ticket => ticket.UserId == request.UserId && ticket.ProjectionId == projection.Id && ticket.Type == TicketType.RESERVED && ticket.SeatNumber == seat);
+                    ticket = await _tickets.GetAsync(ticket => ticket.UserId == request.UserId && ticket.ProjectionId == request.ProjectionId && ticket.Type == TicketType.RESERVED && ticket.SeatNumber == seat);
                     var reservation = new Reservation()
                     {
                         UserId = request.UserId,

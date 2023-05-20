@@ -34,7 +34,7 @@ namespace Server.WebApi.Controllers
         /// </summary>
         /// <response code="200">Get all tickets.</response>
         [HttpPost]
-        [Route("get/{userId}")]
+        [Route("get/user/{userId}")]
         [Consumes(MediaTypeNames.Application.Json)]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<List<Ticket>> GetAllTickets(string userId)

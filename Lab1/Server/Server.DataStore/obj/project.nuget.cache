@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xrOlh4B7rqRemRRD9MH/+gF0+gJv9Ajgnm8UoNohLHu0ahyQCi6G7xq7aQTk8ubJNJe8pb09sI2KMQ5qAiVmlg==",
+  "dgSpecHash": "Np4SpnNhUD3BJlnmoWI0HoajvxSV3GcsSJxl1AY834JqKxR42t9/BRU/iDxAhVwciQeg49yfiWqlNhovWI0+ng==",
   "success": true,
   "projectFilePath": "E:\\Facultate\\Sem_4\\ISS\\ISS\\Lab1\\Server\\Server.DataStore\\Server.DataStore.csproj",
   "expectedPackageFiles": [
@@ -17,9 +17,11 @@
     "C:\\Users\\catal\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\catal\\.nuget\\packages\\snappier\\1.0.0\\snappier.1.0.0.nupkg.sha512",
     "C:\\Users\\catal\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
-    "C:\\Users\\catal\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\catal\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\catal\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\catal\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\catal\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\catal\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512",
     "C:\\Users\\catal\\.nuget\\packages\\zstdsharp.port\\0.6.2\\zstdsharp.port.0.6.2.nupkg.sha512"
   ],
   "logs": []

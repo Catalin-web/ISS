@@ -35,7 +35,7 @@ namespace Server.WebApi
         /// </summary>
         /// <response code="200">Get all cards request.</response>
         [HttpPost]
-        [Route("get/{userId}")]
+        [Route("get/user/{userId}")]
         [Consumes(MediaTypeNames.Application.Json)]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<List<Card>> GetAllCards(string userId)
@@ -49,7 +49,7 @@ namespace Server.WebApi
         /// </summary>
         /// <response code="200">Get a cards request.</response>
         [HttpPost]
-        [Route("get/{cardId}")]
+        [Route("get/card/{cardId}")]
         [Consumes(MediaTypeNames.Application.Json)]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<Card> GetCardById(string cardId)

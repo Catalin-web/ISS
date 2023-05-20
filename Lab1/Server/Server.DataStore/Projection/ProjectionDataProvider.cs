@@ -17,9 +17,11 @@ namespace Server.DataStore
 
         protected IMongoCollection<Projection> Collection => _context.Database.GetCollection<Projection>(_collectionName);
 
-        public Task<List<Projection>> GetAllAsync(Expression<Func<Projection, bool>> match)
+        public async Task<List<Projection>> GetAllAsync(Expression<Func<Projection, bool>> match)
         {
-            throw new NotImplementedException();
+            return await Collection.AsQueryable()
+                .Where(match)
+                .ToListAsync();
         }
 
         public async Task<Projection> GetAsync(Expression<Func<Projection, bool>> match)

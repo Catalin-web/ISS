@@ -24,7 +24,7 @@ namespace Server.WebApi.Settings
         {
             get
             {
-                return Environment.GetEnvironmentVariable("CONNECTION_STRING") ?? "mongodb://localhost:27017";
+                return Environment.GetEnvironmentVariable("CONNECTION_STRING") ?? "mongodb://localhost:27017/cinema";
             }
         }
     }

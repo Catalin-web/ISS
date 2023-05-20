@@ -96,3 +96,6 @@ E:\Facultate\Sem_4\ISS\ISS\Lab1\Server\Server.WebApi\obj\Debug\net6.0\refint\Ser
 E:\Facultate\Sem_4\ISS\ISS\Lab1\Server\Server.WebApi\obj\Debug\net6.0\Server.WebApi.pdb
 E:\Facultate\Sem_4\ISS\ISS\Lab1\Server\Server.WebApi\obj\Debug\net6.0\Server.WebApi.genruntimeconfig.cache
 E:\Facultate\Sem_4\ISS\ISS\Lab1\Server\Server.WebApi\obj\Debug\net6.0\ref\Server.WebApi.dll
+E:\Facultate\Sem_4\ISS\ISS\Lab1\Server\Server.WebApi\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+E:\Facultate\Sem_4\ISS\ISS\Lab1\Server\Server.WebApi\bin\Debug\net6.0\System.Text.Json.dll
+E:\Facultate\Sem_4\ISS\ISS\Lab1\Server\Server.WebApi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
