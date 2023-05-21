@@ -13,8 +13,8 @@ namespace Frontend.Client
             _httpClient = new HttpClient();
         }
 
-        public string BaseUrl { get => BaseUrl; }
-        public HttpClient HttpClient { get => HttpClient; }
+        public string BaseUrl { get => _baseUrl; }
+        public HttpClient HttpClient { get => _httpClient; }
 
         public static async Task<T> DeserializeResponseContentAsync<T>(HttpResponseMessage response) where T : class
         {
@@ -28,12 +28,18 @@ namespace Frontend.Client
             {
                 return null;
             }
-            return JsonSerializer.Deserialize<T>(json);
+            return JsonSerializer.Deserialize<T>(json, new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            });
         }
 
         public async Task<HttpResponseMessage> PostAsync(string url, object body = null)
         {
-            return await HttpClient.PostAsJsonAsync(url, body);
+            return await HttpClient.PostAsJsonAsync(url, body, new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            });
         }
     }
 }

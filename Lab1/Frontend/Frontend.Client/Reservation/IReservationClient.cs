@@ -10,5 +10,6 @@ namespace Frontend.Client
         Task<List<Reservation>> GetAllReservations(string userId);
         Task<Reservation> GetReservationById(string reservationId);
         Task DeleteReservation(DeleteReservationRequest request);
+        Task<List<Reservation>> GetAll();
     }
 }

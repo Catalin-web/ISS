@@ -36,6 +36,21 @@ namespace Frontend.Client
             }
         }
 
+        public async Task<List<Reservation>> GetAll()
+        {
+            try
+            {
+                var url = BaseUrl + "/get/all";
+                var response = await PostAsync(url);
+                return await DeserializeResponseContentAsync<List<Reservation>>(response);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return new List<Reservation>();
+            }
+        }
+
         public async Task<List<Reservation>> GetAllReservations(string userId)
         {
             try
@@ -51,9 +66,19 @@ namespace Frontend.Client
             }
         }
 
-        public Task<Reservation> GetReservationById(string reservationId)
+        public async Task<Reservation> GetReservationById(string reservationId)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var url = BaseUrl + "/get/reservation/" + reservationId;
+                var response = await PostAsync(url);
+                return await DeserializeResponseContentAsync<Reservation>(response);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return null;
+            }
         }
     }
 }

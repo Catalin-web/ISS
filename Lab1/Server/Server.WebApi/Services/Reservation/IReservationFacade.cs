@@ -9,6 +9,7 @@ namespace Server.WebApi
         Task CreateReservation(CreateReservationRequest request);
         Task<List<Reservation>> GetAllReservations(string userId);
         Task<Reservation> GetReservationById(string reservationId);
-        public Task DeleteReservation(DeleteReservationRequest request);
+        Task DeleteReservation(DeleteReservationRequest request);
+        Task<List<Reservation>> GetAll();
     }
 }

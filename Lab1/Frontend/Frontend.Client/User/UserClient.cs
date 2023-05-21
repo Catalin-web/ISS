@@ -10,16 +10,18 @@ namespace Frontend.Client
         {
         }
 
-        public async Task CreateUser(CreateUserRequest request)
+        public async Task<User> CreateUser(CreateUserRequest request)
         {
             try
             {
                 var url = BaseUrl + "/create";
-                await PostAsync(url, request);
+                var response = await PostAsync(url, request);
+                return await DeserializeResponseContentAsync<User>(response);
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.ToString())
+                Console.WriteLine(ex.ToString());
+                return null;
             }
         }
 

@@ -56,5 +56,18 @@ namespace Server.WebApi.Controllers
         {
             return await _projectionFacade.GetAllProjectionOfMovie(request);
         }
+
+        /// <summary>
+        /// Get a projections by id.
+        /// </summary>
+        /// <response code="200">Get a projection by id.</response>
+        [HttpPost]
+        [Route("get/projection/{projectionId}")]
+        [Consumes(MediaTypeNames.Application.Json)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<Projection> GetProjectionById(string projectionId)
+        {
+            return await _projectionFacade.GetProjectionById(projectionId);
+        }
     }
 }

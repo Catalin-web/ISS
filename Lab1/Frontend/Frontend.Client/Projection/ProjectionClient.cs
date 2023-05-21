@@ -16,7 +16,7 @@ namespace Frontend.Client
             try
             {
                 var url = BaseUrl + "/create";
-                await PostAsync(url);
+                await PostAsync(url, request);
             }
             catch (Exception ex)
             {
@@ -51,6 +51,21 @@ namespace Frontend.Client
             {
                 Console.Write(ex.ToString());
                 return new List<Projection>();
+            }
+        }
+
+        public async Task<Projection> GetProjectionById(string projectionId)
+        {
+            try
+            {
+                var url = BaseUrl + "/get/projection/" + projectionId;
+                var response = await PostAsync(url);
+                return await DeserializeResponseContentAsync<Projection>(response);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return null;
             }
         }
     }

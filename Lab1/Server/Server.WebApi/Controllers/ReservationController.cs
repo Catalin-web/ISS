@@ -68,5 +68,18 @@ namespace Server.WebApi.Controllers
         {
             await _reservationFacade.DeleteReservation(request);
         }
+
+        /// <summary>
+        /// Get all reservations.
+        /// </summary>
+        /// <response code="200">Get all reservations.</response>
+        [HttpPost]
+        [Route("get/all")]
+        [Consumes(MediaTypeNames.Application.Json)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<List<Reservation>> GetAllReservations()
+        {
+            return await _reservationFacade.GetAll();
+        }
     }
 }

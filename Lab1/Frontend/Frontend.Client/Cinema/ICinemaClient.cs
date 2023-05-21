@@ -3,7 +3,7 @@ using Frontend.Models.Requests.Create;
 
 namespace Frontend
 {
-    public interface ICinemaClinet
+    public interface ICinemaClient
     {
         Task CreateCinema(CreateCinemaRequest request);
         Task<List<Cinema>> GetAllCinemas();

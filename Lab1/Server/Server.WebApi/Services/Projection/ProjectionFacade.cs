@@ -77,5 +77,18 @@ namespace Server.WebApi
                 return new List<Projection>();
             }
         }
+
+        public async Task<Projection> GetProjectionById(string projectionId)
+        {
+            try
+            {
+                return await _projections.GetAsync(projection => projection.Id == projectionId);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return null;
+            }
+        }
     }
 }

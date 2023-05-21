@@ -97,5 +97,18 @@ namespace Server.WebApi
                 Console.WriteLine(ex.ToString());
             }
         }
+
+        public async Task<List<Reservation>> GetAll()
+        {
+            try
+            {
+                return await _reservations.GetAllAsync(reservation => true);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return new List<Reservation>();
+            }
+        }
     }
 }

@@ -6,7 +6,7 @@ namespace Frontend.Client
 {
     public interface IUserClient
     {
-        Task CreateUser(CreateUserRequest request);
+        Task<User> CreateUser(CreateUserRequest request);
         Task<User> GetUser(GetUserRequest request);
         Task<User> GetUserById(string userId);
     }

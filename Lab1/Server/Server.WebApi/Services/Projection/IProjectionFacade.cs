@@ -9,5 +9,6 @@ namespace Server.WebApi
         Task CreateProjection(CreateProjectionRequest request);
         Task<List<Projection>> GetAllProjectionOfCinema(GetAllProjectionOfCinemaRequest request);
         Task<List<Projection>> GetAllProjectionOfMovie(GetAllProjectionOfMovieRequest request);
+        Task<Projection> GetProjectionById(string projectionId);
     }
 }

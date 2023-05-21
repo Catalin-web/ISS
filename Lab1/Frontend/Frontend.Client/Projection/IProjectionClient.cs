@@ -10,5 +10,6 @@ namespace Frontend.Client
         Task CreateProjection(CreateProjectionRequest request);
         Task<List<Projection>> GetAllProjectionByCinema(GetAllProjectionOfCinemaRequest request);
         Task<List<Projection>> GetAllPRojectionByMovie(GetAllProjectionOfMovieRequest request);
+        Task<Projection> GetProjectionById(string projectionId);
     }
 }
